@@ -1,0 +1,4624 @@
+{
+  "stations": [
+    {
+      "id": "GS-OPT-001",
+      "name": "Tokyo Laser Node #1",
+      "location": {
+        "lat": 43.229,
+        "lon": -79.759,
+        "alt_m": 92
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.37,
+        "optical_throughput": 0.72,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.82,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.22,
+        "jitter_urad": 0.87,
+        "pointing_loss_db": 1.57
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 99,
+        "horizon_mask_deg": 21
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 73780,
+          "p90": 80194,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-002",
+      "name": "USA 1",
+      "location": {
+        "lat": 0.314,
+        "lon": -11.448,
+        "alt_m": 699
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.87,
+        "optical_throughput": 0.88,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.72,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.86,
+        "jitter_urad": 1.81,
+        "pointing_loss_db": 1.77
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 87,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 77977,
+          "p90": 82288,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-003",
+      "name": "California Laser Terminal #3",
+      "location": {
+        "lat": 33.5505,
+        "lon": -116.6928,
+        "alt_m": 325
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.38,
+        "optical_throughput": 0.89,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.42,
+        "jitter_urad": 1.01,
+        "pointing_loss_db": 1.36
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 87,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 73029,
+          "p90": 87388,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-004",
+      "name": "Madrid Optical Hub #4",
+      "location": {
+        "lat": 38.9498,
+        "lon": -2.5386,
+        "alt_m": 647
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.66,
+        "optical_throughput": 0.85,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.63,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.56,
+        "jitter_urad": 1.87,
+        "pointing_loss_db": 0.96
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 93,
+        "throughput_distribution_mbps": {
+          "p50": 62072,
+          "p90": 92160,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-005",
+      "name": "Hyderabad Optical Station #5",
+      "location": {
+        "lat": 18.0252,
+        "lon": 77.2253,
+        "alt_m": 639
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.39,
+        "optical_throughput": 0.71,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.88,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.84,
+        "jitter_urad": 2.9,
+        "pointing_loss_db": 1.18
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 92,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 60844,
+          "p90": 87212,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-006",
+      "name": "California Laser Terminal #6",
+      "location": {
+        "lat": 33.5459,
+        "lon": -118.1677,
+        "alt_m": 314
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.6,
+        "optical_throughput": 0.88,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.72,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.13,
+        "jitter_urad": 1.77,
+        "pointing_loss_db": 1.14
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 62572,
+          "p90": 93097,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-007",
+      "name": "California Laser Terminal #7",
+      "location": {
+        "lat": 33.4943,
+        "lon": -116.4325,
+        "alt_m": 330
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.78,
+        "optical_throughput": 0.84,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.69,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.9,
+        "jitter_urad": 1.88,
+        "pointing_loss_db": 1.78
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 99,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 62873,
+          "p90": 81674,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-008",
+      "name": "California Laser Terminal #8",
+      "location": {
+        "lat": 35.9651,
+        "lon": -116.3989,
+        "alt_m": 288
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.65,
+        "optical_throughput": 0.89,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.78,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.41,
+        "jitter_urad": 2.17,
+        "pointing_loss_db": 1.81
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 67003,
+          "p90": 80054,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-009",
+      "name": "Hyderabad Optical Station #9",
+      "location": {
+        "lat": 15.3921,
+        "lon": 79.9001,
+        "alt_m": 616
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.68,
+        "optical_throughput": 0.87,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.63,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.5,
+        "jitter_urad": 0.59,
+        "pointing_loss_db": 1.88
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 96,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 74167,
+          "p90": 91719,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-010",
+      "name": "Madrid Optical Hub #10",
+      "location": {
+        "lat": 40.0199,
+        "lon": -1.7123,
+        "alt_m": 690
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.72,
+        "optical_throughput": 0.7,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.88,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.65,
+        "jitter_urad": 2.48,
+        "pointing_loss_db": 0.86
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 87,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 97,
+        "throughput_distribution_mbps": {
+          "p50": 77103,
+          "p90": 82223,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-011",
+      "name": "California Laser Terminal #11",
+      "location": {
+        "lat": 34.7066,
+        "lon": -118.9034,
+        "alt_m": 305
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.26,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.68,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.43,
+        "jitter_urad": 1.12,
+        "pointing_loss_db": 0.7
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 94,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 64868,
+          "p90": 87056,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-012",
+      "name": "Madrid Optical Hub #12",
+      "location": {
+        "lat": 41.6374,
+        "lon": -3.5218,
+        "alt_m": 613
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.42,
+        "optical_throughput": 0.7,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.13,
+        "jitter_urad": 1.2,
+        "pointing_loss_db": 1.69
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 94,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 57092,
+          "p90": 89720,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-013",
+      "name": "Madrid Optical Hub #13",
+      "location": {
+        "lat": 38.8805,
+        "lon": -4.4078,
+        "alt_m": 641
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.52,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.5,
+        "jitter_urad": 1.23,
+        "pointing_loss_db": 1.67
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 58312,
+          "p90": 83243,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-014",
+      "name": "Perth Optical Relay #14",
+      "location": {
+        "lat": -30.499,
+        "lon": 113.9814,
+        "alt_m": 214
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.86,
+        "optical_throughput": 0.85,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.71,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.3,
+        "jitter_urad": 1.23,
+        "pointing_loss_db": 1.19
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 96,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 74399,
+          "p90": 93580,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-015",
+      "name": "Perth Optical Relay #15",
+      "location": {
+        "lat": -31.836,
+        "lon": 117.5256,
+        "alt_m": 263
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.7,
+        "optical_throughput": 0.79,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.61,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.56,
+        "jitter_urad": 1.51,
+        "pointing_loss_db": 1.74
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 92,
+        "throughput_distribution_mbps": {
+          "p50": 76850,
+          "p90": 91846,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-016",
+      "name": "California Laser Terminal #16",
+      "location": {
+        "lat": 32.6926,
+        "lon": -118.7668,
+        "alt_m": 265
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.55,
+        "optical_throughput": 0.78,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.71,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.19,
+        "jitter_urad": 2.75,
+        "pointing_loss_db": 1.04
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 90,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 86,
+        "throughput_distribution_mbps": {
+          "p50": 56724,
+          "p90": 92619,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-017",
+      "name": "Perth Optical Relay #17",
+      "location": {
+        "lat": -31.3053,
+        "lon": 116.4481,
+        "alt_m": 200
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.15,
+        "optical_throughput": 0.79,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.81,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.67,
+        "jitter_urad": 1.67,
+        "pointing_loss_db": 1.62
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 91,
+        "throughput_distribution_mbps": {
+          "p50": 51979,
+          "p90": 92108,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-018",
+      "name": "Tokyo Laser Node #18",
+      "location": {
+        "lat": 36.8961,
+        "lon": 140.2396,
+        "alt_m": 192
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.81,
+        "optical_throughput": 0.73,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.69,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.91,
+        "jitter_urad": 2.83,
+        "pointing_loss_db": 0.69
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 79354,
+          "p90": 85692,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-019",
+      "name": "Hyderabad Optical Station #19",
+      "location": {
+        "lat": 17.7321,
+        "lon": 79.5957,
+        "alt_m": 621
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.52,
+        "optical_throughput": 0.81,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.68,
+        "jitter_urad": 1.82,
+        "pointing_loss_db": 1.31
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 97,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 86,
+        "throughput_distribution_mbps": {
+          "p50": 57190,
+          "p90": 80214,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-020",
+      "name": "Perth Optical Relay #20",
+      "location": {
+        "lat": -32.1709,
+        "lon": 114.7093,
+        "alt_m": 254
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.61,
+        "optical_throughput": 0.85,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.65,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.84,
+        "jitter_urad": 2.34,
+        "pointing_loss_db": 0.97
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 56292,
+          "p90": 88974,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-021",
+      "name": "California Laser Terminal #21",
+      "location": {
+        "lat": 35.4764,
+        "lon": -119.9897,
+        "alt_m": 313
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.69,
+        "optical_throughput": 0.76,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.69,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.95,
+        "jitter_urad": 1.13,
+        "pointing_loss_db": 1.29
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 59227,
+          "p90": 83399,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-022",
+      "name": "Hyderabad Optical Station #22",
+      "location": {
+        "lat": 17.7832,
+        "lon": 79.7563,
+        "alt_m": 615
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.71,
+        "optical_throughput": 0.76,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.76,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.65,
+        "jitter_urad": 1.74,
+        "pointing_loss_db": 0.79
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 93,
+        "throughput_distribution_mbps": {
+          "p50": 74952,
+          "p90": 94258,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-023",
+      "name": "Hyderabad Optical Station #23",
+      "location": {
+        "lat": 18.2604,
+        "lon": 79.4343,
+        "alt_m": 559
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.83,
+        "optical_throughput": 0.83,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.75,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.62,
+        "jitter_urad": 1.81,
+        "pointing_loss_db": 0.69
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 60297,
+          "p90": 88464,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-024",
+      "name": "Hyderabad Optical Station #24",
+      "location": {
+        "lat": 18.0461,
+        "lon": 77.7282,
+        "alt_m": 603
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.44,
+        "optical_throughput": 0.7,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.76,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.2,
+        "jitter_urad": 2.59,
+        "pointing_loss_db": 1.09
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 96,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 79341,
+          "p90": 91529,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-025",
+      "name": "Tokyo Laser Node #25",
+      "location": {
+        "lat": 37.2275,
+        "lon": 138.0167,
+        "alt_m": 185
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.52,
+        "optical_throughput": 0.81,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.65,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.2,
+        "jitter_urad": 1.71,
+        "pointing_loss_db": 1.53
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 90,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 92,
+        "throughput_distribution_mbps": {
+          "p50": 68057,
+          "p90": 84406,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-026",
+      "name": "Hyderabad Optical Station #26",
+      "location": {
+        "lat": 18.3574,
+        "lon": 77.8373,
+        "alt_m": 566
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.82,
+        "optical_throughput": 0.83,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.46,
+        "jitter_urad": 0.67,
+        "pointing_loss_db": 0.63
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 89,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 91,
+        "throughput_distribution_mbps": {
+          "p50": 69550,
+          "p90": 92215,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-027",
+      "name": "California Laser Terminal #27",
+      "location": {
+        "lat": 35.2772,
+        "lon": -116.9991,
+        "alt_m": 265
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.26,
+        "optical_throughput": 0.73,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.66,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.95,
+        "jitter_urad": 2.89,
+        "pointing_loss_db": 1.05
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 87,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 97,
+        "throughput_distribution_mbps": {
+          "p50": 52230,
+          "p90": 84330,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-028",
+      "name": "Perth Optical Relay #28",
+      "location": {
+        "lat": -31.8308,
+        "lon": 114.7625,
+        "alt_m": 211
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.97,
+        "optical_throughput": 0.76,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.67,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.13,
+        "jitter_urad": 2.48,
+        "pointing_loss_db": 1.45
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 93,
+        "throughput_distribution_mbps": {
+          "p50": 78013,
+          "p90": 93286,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-029",
+      "name": "Madrid Optical Hub #29",
+      "location": {
+        "lat": 40.154,
+        "lon": -2.931,
+        "alt_m": 672
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.97,
+        "optical_throughput": 0.74,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.69,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.34,
+        "jitter_urad": 1.13,
+        "pointing_loss_db": 1.32
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 85,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 77208,
+          "p90": 84222,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-030",
+      "name": "Perth Optical Relay #30",
+      "location": {
+        "lat": -30.4967,
+        "lon": 114.5515,
+        "alt_m": 253
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.52,
+        "optical_throughput": 0.81,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.62,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.27,
+        "jitter_urad": 1.89,
+        "pointing_loss_db": 1.32
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 92,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 86,
+        "throughput_distribution_mbps": {
+          "p50": 59384,
+          "p90": 86108,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-031",
+      "name": "Perth Optical Relay #31",
+      "location": {
+        "lat": -30.2102,
+        "lon": 116.3514,
+        "alt_m": 295
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.99,
+        "optical_throughput": 0.75,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.85,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.88,
+        "jitter_urad": 1.96,
+        "pointing_loss_db": 0.8
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 50404,
+          "p90": 89017,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-032",
+      "name": "Perth Optical Relay #32",
+      "location": {
+        "lat": -33.0051,
+        "lon": 117.4493,
+        "alt_m": 228
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.46,
+        "optical_throughput": 0.77,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.85,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.83,
+        "jitter_urad": 1.18,
+        "pointing_loss_db": 1.77
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 88,
+        "throughput_distribution_mbps": {
+          "p50": 58687,
+          "p90": 87903,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-033",
+      "name": "Madrid Optical Hub #33",
+      "location": {
+        "lat": 39.4827,
+        "lon": -3.5381,
+        "alt_m": 619
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.34,
+        "optical_throughput": 0.87,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.65,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.23,
+        "jitter_urad": 2.76,
+        "pointing_loss_db": 1.79
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 86,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 96,
+        "throughput_distribution_mbps": {
+          "p50": 78069,
+          "p90": 93803,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-034",
+      "name": "Madrid Optical Hub #34",
+      "location": {
+        "lat": 41.8904,
+        "lon": -5.1505,
+        "alt_m": 645
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.78,
+        "optical_throughput": 0.72,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.6,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.97,
+        "jitter_urad": 2.02,
+        "pointing_loss_db": 1.02
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 94,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 56659,
+          "p90": 89220,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-035",
+      "name": "Tokyo Laser Node #35",
+      "location": {
+        "lat": 34.4309,
+        "lon": 138.8513,
+        "alt_m": 242
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.95,
+        "optical_throughput": 0.82,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.75,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.91,
+        "jitter_urad": 1.96,
+        "pointing_loss_db": 1.14
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 85,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 52514,
+          "p90": 94129,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-036",
+      "name": "Madrid Optical Hub #36",
+      "location": {
+        "lat": 38.4269,
+        "lon": -4.5508,
+        "alt_m": 623
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.98,
+        "optical_throughput": 0.86,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.72,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.91,
+        "jitter_urad": 1.64,
+        "pointing_loss_db": 0.68
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 79414,
+          "p90": 85567,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-037",
+      "name": "California Laser Terminal #37",
+      "location": {
+        "lat": 33.887,
+        "lon": -118.3719,
+        "alt_m": 258
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.89,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.7,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.38,
+        "jitter_urad": 1.59,
+        "pointing_loss_db": 1.78
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 72571,
+          "p90": 90050,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-038",
+      "name": "California Laser Terminal #38",
+      "location": {
+        "lat": 35.4561,
+        "lon": -119.2324,
+        "alt_m": 304
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.69,
+        "optical_throughput": 0.79,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.88,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.53,
+        "jitter_urad": 1.86,
+        "pointing_loss_db": 0.61
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 55046,
+          "p90": 89337,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-039",
+      "name": "Tokyo Laser Node #39",
+      "location": {
+        "lat": 37.1,
+        "lon": 140.5414,
+        "alt_m": 182
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.72,
+        "optical_throughput": 0.88,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.82,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.78,
+        "jitter_urad": 0.75,
+        "pointing_loss_db": 1.48
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 90,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 81,
+        "throughput_distribution_mbps": {
+          "p50": 63892,
+          "p90": 85443,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-040",
+      "name": "Hyderabad Optical Station #40",
+      "location": {
+        "lat": 15.5106,
+        "lon": 77.6552,
+        "alt_m": 646
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.33,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.9,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.88,
+        "jitter_urad": 2.58,
+        "pointing_loss_db": 0.82
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 92,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 74336,
+          "p90": 82269,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-041",
+      "name": "California Laser Terminal #41",
+      "location": {
+        "lat": 33.8487,
+        "lon": -117.6683,
+        "alt_m": 332
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.88,
+        "optical_throughput": 0.88,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.63,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.62,
+        "jitter_urad": 2.61,
+        "pointing_loss_db": 0.55
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 92,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 96,
+        "throughput_distribution_mbps": {
+          "p50": 59791,
+          "p90": 80794,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-042",
+      "name": "Perth Optical Relay #42",
+      "location": {
+        "lat": -32.0506,
+        "lon": 115.6617,
+        "alt_m": 252
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.52,
+        "optical_throughput": 0.83,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.83,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.76,
+        "jitter_urad": 2.84,
+        "pointing_loss_db": 0.8
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 85,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 52474,
+          "p90": 92386,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-043",
+      "name": "California Laser Terminal #43",
+      "location": {
+        "lat": 34.8294,
+        "lon": -119.971,
+        "alt_m": 254
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.3,
+        "optical_throughput": 0.73,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.24,
+        "jitter_urad": 1.3,
+        "pointing_loss_db": 0.82
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 96,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 74034,
+          "p90": 82379,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-044",
+      "name": "Tokyo Laser Node #44",
+      "location": {
+        "lat": 34.9729,
+        "lon": 141.6055,
+        "alt_m": 241
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.71,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.79,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.9,
+        "jitter_urad": 1.9,
+        "pointing_loss_db": 1.6
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 51002,
+          "p90": 86085,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-045",
+      "name": "California Laser Terminal #45",
+      "location": {
+        "lat": 32.8501,
+        "lon": -117.2685,
+        "alt_m": 307
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.2,
+        "optical_throughput": 0.71,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.87,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.93,
+        "jitter_urad": 1.16,
+        "pointing_loss_db": 1.71
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 94,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 77831,
+          "p90": 94900,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-046",
+      "name": "Tokyo Laser Node #46",
+      "location": {
+        "lat": 34.4026,
+        "lon": 141.0094,
+        "alt_m": 200
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.64,
+        "optical_throughput": 0.85,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.74,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.22,
+        "jitter_urad": 2.07,
+        "pointing_loss_db": 1.2
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 80,
+        "throughput_distribution_mbps": {
+          "p50": 52913,
+          "p90": 84002,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-047",
+      "name": "Madrid Optical Hub #47",
+      "location": {
+        "lat": 38.9106,
+        "lon": -3.8757,
+        "alt_m": 640
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.55,
+        "optical_throughput": 0.72,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.38,
+        "jitter_urad": 1.26,
+        "pointing_loss_db": 1.49
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 96,
+        "throughput_distribution_mbps": {
+          "p50": 51173,
+          "p90": 92839,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-048",
+      "name": "California Laser Terminal #48",
+      "location": {
+        "lat": 35.3924,
+        "lon": -119.376,
+        "alt_m": 338
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.91,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.68,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.21,
+        "jitter_urad": 2.91,
+        "pointing_loss_db": 1.93
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 91,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 86,
+        "throughput_distribution_mbps": {
+          "p50": 59125,
+          "p90": 83225,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-049",
+      "name": "California Laser Terminal #49",
+      "location": {
+        "lat": 33.2582,
+        "lon": -118.4778,
+        "alt_m": 285
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.41,
+        "optical_throughput": 0.75,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.77,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.09,
+        "jitter_urad": 1.15,
+        "pointing_loss_db": 1.57
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 97,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 97,
+        "throughput_distribution_mbps": {
+          "p50": 72939,
+          "p90": 86326,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-050",
+      "name": "Tokyo Laser Node #50",
+      "location": {
+        "lat": 33.8538,
+        "lon": 139.0607,
+        "alt_m": 220
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.78,
+        "optical_throughput": 0.83,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.72,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.33,
+        "jitter_urad": 1.07,
+        "pointing_loss_db": 0.96
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 97,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 92,
+        "throughput_distribution_mbps": {
+          "p50": 67216,
+          "p90": 88372,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-051",
+      "name": "Hyderabad Optical Station #51",
+      "location": {
+        "lat": 18.6896,
+        "lon": 79.2603,
+        "alt_m": 646
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.6,
+        "optical_throughput": 0.78,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.77,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.97,
+        "jitter_urad": 1.3,
+        "pointing_loss_db": 1.79
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 91,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 58559,
+          "p90": 88673,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-052",
+      "name": "Madrid Optical Hub #52",
+      "location": {
+        "lat": 40.9324,
+        "lon": -4.8752,
+        "alt_m": 690
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.58,
+        "optical_throughput": 0.83,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.81,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.23,
+        "jitter_urad": 0.7,
+        "pointing_loss_db": 1.32
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 94,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 68507,
+          "p90": 85554,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-053",
+      "name": "Perth Optical Relay #53",
+      "location": {
+        "lat": -33.8429,
+        "lon": 117.1402,
+        "alt_m": 297
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.34,
+        "optical_throughput": 0.81,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.81,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.31,
+        "jitter_urad": 1.08,
+        "pointing_loss_db": 1.97
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 99,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 57235,
+          "p90": 84831,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-054",
+      "name": "Madrid Optical Hub #54",
+      "location": {
+        "lat": 41.8539,
+        "lon": -1.7097,
+        "alt_m": 631
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.56,
+        "optical_throughput": 0.78,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.73,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.94,
+        "jitter_urad": 2.46,
+        "pointing_loss_db": 1.53
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 74514,
+          "p90": 93522,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-055",
+      "name": "Hyderabad Optical Station #55",
+      "location": {
+        "lat": 16.4276,
+        "lon": 78.5817,
+        "alt_m": 599
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.84,
+        "optical_throughput": 0.76,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.77,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.24,
+        "jitter_urad": 0.62,
+        "pointing_loss_db": 1.43
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 85,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 81,
+        "throughput_distribution_mbps": {
+          "p50": 55045,
+          "p90": 90965,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-056",
+      "name": "Perth Optical Relay #56",
+      "location": {
+        "lat": -32.9463,
+        "lon": 115.3224,
+        "alt_m": 206
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.71,
+        "optical_throughput": 0.71,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.79,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.14,
+        "jitter_urad": 1.71,
+        "pointing_loss_db": 1.59
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 99,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 91,
+        "throughput_distribution_mbps": {
+          "p50": 58516,
+          "p90": 88123,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-057",
+      "name": "Hyderabad Optical Station #57",
+      "location": {
+        "lat": 17.8391,
+        "lon": 76.969,
+        "alt_m": 607
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.48,
+        "optical_throughput": 0.77,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.89,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.65,
+        "jitter_urad": 0.89,
+        "pointing_loss_db": 1.14
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 89,
+        "throughput_distribution_mbps": {
+          "p50": 79374,
+          "p90": 92367,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-058",
+      "name": "California Laser Terminal #58",
+      "location": {
+        "lat": 35.0224,
+        "lon": -117.8475,
+        "alt_m": 275
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.17,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.87,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.35,
+        "jitter_urad": 1.78,
+        "pointing_loss_db": 1.1
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 96,
+        "throughput_distribution_mbps": {
+          "p50": 67195,
+          "p90": 93994,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-059",
+      "name": "California Laser Terminal #59",
+      "location": {
+        "lat": 35.8518,
+        "lon": -119.7029,
+        "alt_m": 254
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.73,
+        "optical_throughput": 0.78,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.62,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.41,
+        "jitter_urad": 0.5,
+        "pointing_loss_db": 1.64
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 89,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 59188,
+          "p90": 87090,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-060",
+      "name": "California Laser Terminal #60",
+      "location": {
+        "lat": 35.1787,
+        "lon": -118.8404,
+        "alt_m": 266
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.55,
+        "optical_throughput": 0.85,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.76,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.94,
+        "jitter_urad": 0.95,
+        "pointing_loss_db": 1.51
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 96,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 65629,
+          "p90": 88231,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-061",
+      "name": "Hyderabad Optical Station #61",
+      "location": {
+        "lat": 15.7803,
+        "lon": 79.6937,
+        "alt_m": 634
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.59,
+        "optical_throughput": 0.86,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.89,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.06,
+        "jitter_urad": 0.89,
+        "pointing_loss_db": 1.5
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 76487,
+          "p90": 89144,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-062",
+      "name": "California Laser Terminal #62",
+      "location": {
+        "lat": 34.2786,
+        "lon": -119.2176,
+        "alt_m": 347
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.28,
+        "optical_throughput": 0.73,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.6,
+        "jitter_urad": 2.7,
+        "pointing_loss_db": 1.81
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 95,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 77651,
+          "p90": 83556,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-063",
+      "name": "Tokyo Laser Node #63",
+      "location": {
+        "lat": 34.2219,
+        "lon": 140.7519,
+        "alt_m": 237
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.74,
+        "optical_throughput": 0.83,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.76,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.51,
+        "jitter_urad": 1.12,
+        "pointing_loss_db": 1.2
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 65485,
+          "p90": 93464,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-064",
+      "name": "Madrid Optical Hub #64",
+      "location": {
+        "lat": 41.1322,
+        "lon": -5.3468,
+        "alt_m": 603
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.53,
+        "optical_throughput": 0.85,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.01,
+        "jitter_urad": 0.94,
+        "pointing_loss_db": 0.84
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 94,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 79442,
+          "p90": 80160,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-065",
+      "name": "Madrid Optical Hub #65",
+      "location": {
+        "lat": 39.0487,
+        "lon": -2.8818,
+        "alt_m": 636
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.72,
+        "optical_throughput": 0.74,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.89,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.05,
+        "jitter_urad": 2.32,
+        "pointing_loss_db": 0.61
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 67103,
+          "p90": 89597,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-066",
+      "name": "Perth Optical Relay #66",
+      "location": {
+        "lat": -32.2224,
+        "lon": 114.9162,
+        "alt_m": 224
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.76,
+        "optical_throughput": 0.83,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.65,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.79,
+        "jitter_urad": 3.0,
+        "pointing_loss_db": 0.51
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 86,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 74804,
+          "p90": 84234,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-067",
+      "name": "Madrid Optical Hub #67",
+      "location": {
+        "lat": 39.3306,
+        "lon": -2.9404,
+        "alt_m": 637
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.25,
+        "optical_throughput": 0.85,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.67,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.41,
+        "jitter_urad": 0.99,
+        "pointing_loss_db": 0.77
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 93,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 72836,
+          "p90": 91323,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-068",
+      "name": "Tokyo Laser Node #68",
+      "location": {
+        "lat": 34.3817,
+        "lon": 140.9578,
+        "alt_m": 225
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.41,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.84,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.16,
+        "jitter_urad": 0.74,
+        "pointing_loss_db": 1.98
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 99,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 56271,
+          "p90": 92830,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-069",
+      "name": "Madrid Optical Hub #69",
+      "location": {
+        "lat": 40.2405,
+        "lon": -4.0889,
+        "alt_m": 689
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.3,
+        "optical_throughput": 0.84,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.66,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.65,
+        "jitter_urad": 1.54,
+        "pointing_loss_db": 1.15
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 96,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 61479,
+          "p90": 86918,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-070",
+      "name": "Madrid Optical Hub #70",
+      "location": {
+        "lat": 38.8044,
+        "lon": -2.7701,
+        "alt_m": 670
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.31,
+        "optical_throughput": 0.71,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.64,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.94,
+        "jitter_urad": 2.15,
+        "pointing_loss_db": 0.65
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 88,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 71050,
+          "p90": 82102,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-071",
+      "name": "Perth Optical Relay #71",
+      "location": {
+        "lat": -31.1015,
+        "lon": 115.6721,
+        "alt_m": 228
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.91,
+        "optical_throughput": 0.85,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.77,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.26,
+        "jitter_urad": 2.85,
+        "pointing_loss_db": 1.61
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 52752,
+          "p90": 84470,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-072",
+      "name": "California Laser Terminal #72",
+      "location": {
+        "lat": 32.8362,
+        "lon": -119.2994,
+        "alt_m": 260
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.82,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.75,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.64,
+        "jitter_urad": 1.92,
+        "pointing_loss_db": 1.19
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 53565,
+          "p90": 91439,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-073",
+      "name": "Madrid Optical Hub #73",
+      "location": {
+        "lat": 40.8187,
+        "lon": -4.6507,
+        "alt_m": 620
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.34,
+        "optical_throughput": 0.73,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.68,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.7,
+        "jitter_urad": 2.44,
+        "pointing_loss_db": 1.61
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 96,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 81,
+        "throughput_distribution_mbps": {
+          "p50": 76453,
+          "p90": 85929,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-074",
+      "name": "Tokyo Laser Node #74",
+      "location": {
+        "lat": 35.9811,
+        "lon": 141.5173,
+        "alt_m": 210
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.97,
+        "optical_throughput": 0.75,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.63,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.11,
+        "jitter_urad": 1.32,
+        "pointing_loss_db": 1.5
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 97,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 62466,
+          "p90": 93360,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-075",
+      "name": "Madrid Optical Hub #75",
+      "location": {
+        "lat": 39.0775,
+        "lon": -3.1057,
+        "alt_m": 674
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.76,
+        "optical_throughput": 0.71,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.83,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.29,
+        "jitter_urad": 1.56,
+        "pointing_loss_db": 1.69
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 57117,
+          "p90": 81383,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-076",
+      "name": "Tokyo Laser Node #76",
+      "location": {
+        "lat": 37.3854,
+        "lon": 141.3625,
+        "alt_m": 170
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.25,
+        "optical_throughput": 0.81,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.88,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.52,
+        "jitter_urad": 0.75,
+        "pointing_loss_db": 1.56
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 96,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 80,
+        "throughput_distribution_mbps": {
+          "p50": 50759,
+          "p90": 93429,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-077",
+      "name": "Perth Optical Relay #77",
+      "location": {
+        "lat": -32.8078,
+        "lon": 115.7965,
+        "alt_m": 250
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.75,
+        "optical_throughput": 0.78,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.88,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.56,
+        "jitter_urad": 0.61,
+        "pointing_loss_db": 1.16
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 87,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 78142,
+          "p90": 82038,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-078",
+      "name": "Hyderabad Optical Station #78",
+      "location": {
+        "lat": 16.8398,
+        "lon": 77.4225,
+        "alt_m": 560
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.53,
+        "optical_throughput": 0.72,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.89,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.08,
+        "jitter_urad": 1.68,
+        "pointing_loss_db": 1.33
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 75911,
+          "p90": 87232,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-079",
+      "name": "California Laser Terminal #79",
+      "location": {
+        "lat": 34.5179,
+        "lon": -118.4916,
+        "alt_m": 322
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.79,
+        "optical_throughput": 0.72,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.63,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.01,
+        "jitter_urad": 2.67,
+        "pointing_loss_db": 1.48
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 91,
+        "throughput_distribution_mbps": {
+          "p50": 68731,
+          "p90": 93578,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-080",
+      "name": "Tokyo Laser Node #80",
+      "location": {
+        "lat": 35.4718,
+        "lon": 137.7518,
+        "alt_m": 247
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.82,
+        "optical_throughput": 0.79,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.61,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.86,
+        "jitter_urad": 2.6,
+        "pointing_loss_db": 0.96
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 96,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 63032,
+          "p90": 87882,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-081",
+      "name": "Madrid Optical Hub #81",
+      "location": {
+        "lat": 40.5773,
+        "lon": -4.0487,
+        "alt_m": 684
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.34,
+        "optical_throughput": 0.76,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.61,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.9,
+        "jitter_urad": 2.78,
+        "pointing_loss_db": 0.62
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 87,
+        "throughput_distribution_mbps": {
+          "p50": 61760,
+          "p90": 83769,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-082",
+      "name": "California Laser Terminal #82",
+      "location": {
+        "lat": 33.5874,
+        "lon": -116.5512,
+        "alt_m": 258
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.91,
+        "optical_throughput": 0.84,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.67,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.98,
+        "jitter_urad": 0.9,
+        "pointing_loss_db": 0.79
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 90,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 96,
+        "throughput_distribution_mbps": {
+          "p50": 68423,
+          "p90": 83155,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-083",
+      "name": "Hyderabad Optical Station #83",
+      "location": {
+        "lat": 15.8839,
+        "lon": 80.1855,
+        "alt_m": 645
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.84,
+        "optical_throughput": 0.82,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.6,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.57,
+        "jitter_urad": 1.04,
+        "pointing_loss_db": 1.75
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 86,
+        "horizon_mask_deg": 12
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 88,
+        "throughput_distribution_mbps": {
+          "p50": 73361,
+          "p90": 86457,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-084",
+      "name": "Madrid Optical Hub #84",
+      "location": {
+        "lat": 39.2926,
+        "lon": -3.2605,
+        "alt_m": 616
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.28,
+        "optical_throughput": 0.73,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.74,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.74,
+        "jitter_urad": 2.33,
+        "pointing_loss_db": 1.01
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 99,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 85,
+        "throughput_distribution_mbps": {
+          "p50": 74297,
+          "p90": 90543,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-085",
+      "name": "Madrid Optical Hub #85",
+      "location": {
+        "lat": 41.7246,
+        "lon": -1.9284,
+        "alt_m": 605
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.89,
+        "optical_throughput": 0.75,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.69,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.39,
+        "jitter_urad": 1.89,
+        "pointing_loss_db": 0.81
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 92,
+        "throughput_distribution_mbps": {
+          "p50": 60945,
+          "p90": 82607,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-086",
+      "name": "Madrid Optical Hub #86",
+      "location": {
+        "lat": 41.7649,
+        "lon": -3.2645,
+        "alt_m": 686
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.19,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.83,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.65,
+        "jitter_urad": 1.52,
+        "pointing_loss_db": 0.81
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 97,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 50566,
+          "p90": 80951,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-087",
+      "name": "Perth Optical Relay #87",
+      "location": {
+        "lat": -33.6581,
+        "lon": 116.316,
+        "alt_m": 276
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.8,
+        "optical_throughput": 0.84,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.65,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.59,
+        "jitter_urad": 2.82,
+        "pointing_loss_db": 1.33
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 90,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 54501,
+          "p90": 89994,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-088",
+      "name": "Perth Optical Relay #88",
+      "location": {
+        "lat": -32.2926,
+        "lon": 117.3621,
+        "alt_m": 268
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.27,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.85,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.17,
+        "jitter_urad": 0.92,
+        "pointing_loss_db": 1.1
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 90,
+        "horizon_mask_deg": 14
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 97,
+        "throughput_distribution_mbps": {
+          "p50": 69221,
+          "p90": 88695,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-089",
+      "name": "Perth Optical Relay #89",
+      "location": {
+        "lat": -32.4296,
+        "lon": 117.797,
+        "alt_m": 246
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.54,
+        "optical_throughput": 0.89,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.72,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.36,
+        "jitter_urad": 1.27,
+        "pointing_loss_db": 1.28
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 6
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 81,
+        "throughput_distribution_mbps": {
+          "p50": 52164,
+          "p90": 86897,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-090",
+      "name": "Madrid Optical Hub #90",
+      "location": {
+        "lat": 41.4015,
+        "lon": -4.8056,
+        "alt_m": 603
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.66,
+        "optical_throughput": 0.81,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.74,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.14,
+        "jitter_urad": 0.98,
+        "pointing_loss_db": 0.73
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 95,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 66620,
+          "p90": 82539,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-091",
+      "name": "Perth Optical Relay #91",
+      "location": {
+        "lat": -33.7214,
+        "lon": 115.5199,
+        "alt_m": 269
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.43,
+        "optical_throughput": 0.77,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.82,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.25,
+        "jitter_urad": 1.54,
+        "pointing_loss_db": 0.84
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 93,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 82,
+        "throughput_distribution_mbps": {
+          "p50": 75402,
+          "p90": 93846,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-092",
+      "name": "Tokyo Laser Node #92",
+      "location": {
+        "lat": 34.052,
+        "lon": 138.5249,
+        "alt_m": 191
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.98,
+        "optical_throughput": 0.89,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.83,
+        "jitter_urad": 2.21,
+        "pointing_loss_db": 1.89
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 5
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 77776,
+          "p90": 85106,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-093",
+      "name": "Perth Optical Relay #93",
+      "location": {
+        "lat": -31.2776,
+        "lon": 116.1854,
+        "alt_m": 239
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.26,
+        "optical_throughput": 0.8,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.78,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.59,
+        "jitter_urad": 0.78,
+        "pointing_loss_db": 1.08
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 99,
+        "horizon_mask_deg": 7
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 98,
+        "throughput_distribution_mbps": {
+          "p50": 64108,
+          "p90": 94730,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-094",
+      "name": "Hyderabad Optical Station #94",
+      "location": {
+        "lat": 16.1646,
+        "lon": 76.9835,
+        "alt_m": 559
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.81,
+        "optical_throughput": 0.72,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.78,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 4.82,
+        "jitter_urad": 1.22,
+        "pointing_loss_db": 0.79
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 98,
+        "horizon_mask_deg": 9
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 69169,
+          "p90": 93416,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-095",
+      "name": "Tokyo Laser Node #95",
+      "location": {
+        "lat": 35.6514,
+        "lon": 139.1331,
+        "alt_m": 250
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.45,
+        "optical_throughput": 0.84,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.9,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.75,
+        "jitter_urad": 1.85,
+        "pointing_loss_db": 0.75
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 13
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 83,
+        "throughput_distribution_mbps": {
+          "p50": 76667,
+          "p90": 81848,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-096",
+      "name": "Perth Optical Relay #96",
+      "location": {
+        "lat": -32.0954,
+        "lon": 114.5669,
+        "alt_m": 224
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.93,
+        "optical_throughput": 0.87,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.67,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.56,
+        "jitter_urad": 1.03,
+        "pointing_loss_db": 0.92
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 87,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 94,
+        "throughput_distribution_mbps": {
+          "p50": 58971,
+          "p90": 84218,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-097",
+      "name": "Tokyo Laser Node #97",
+      "location": {
+        "lat": 35.3553,
+        "lon": 139.5056,
+        "alt_m": 206
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.68,
+        "optical_throughput": 0.72,
+        "detector_type": "InGaAs APD",
+        "detector_efficiency": 0.68,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 3.46,
+        "jitter_urad": 1.71,
+        "pointing_loss_db": 1.83
+      },
+      "ops": {
+        "health_state": "DEGRADED",
+        "availability_percent": 97,
+        "horizon_mask_deg": 11
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 88,
+        "throughput_distribution_mbps": {
+          "p50": 69493,
+          "p90": 85345,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-098",
+      "name": "Tokyo Laser Node #98",
+      "location": {
+        "lat": 34.0564,
+        "lon": 140.6104,
+        "alt_m": 225
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.72,
+        "optical_throughput": 0.79,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.86,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.71,
+        "jitter_urad": 1.11,
+        "pointing_loss_db": 0.5
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 89,
+        "horizon_mask_deg": 8
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 92,
+        "throughput_distribution_mbps": {
+          "p50": 67080,
+          "p90": 87217,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-099",
+      "name": "Madrid Optical Hub #99",
+      "location": {
+        "lat": 40.1359,
+        "lon": -4.926,
+        "alt_m": 648
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.96,
+        "optical_throughput": 0.84,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.78,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.15,
+        "jitter_urad": 2.46,
+        "pointing_loss_db": 0.52
+      },
+      "ops": {
+        "health_state": "MAINTENANCE",
+        "availability_percent": 88,
+        "horizon_mask_deg": 10
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 95,
+        "throughput_distribution_mbps": {
+          "p50": 71408,
+          "p90": 93104,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-OPT-100",
+      "name": "Hyderabad Optical Station #100",
+      "location": {
+        "lat": 15.8497,
+        "lon": 80.1293,
+        "alt_m": 621
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.32,
+        "optical_throughput": 0.85,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.76,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 1.72,
+        "jitter_urad": 2.89,
+        "pointing_loss_db": 0.88
+      },
+      "ops": {
+        "health_state": "ACTIVE",
+        "availability_percent": 90,
+        "horizon_mask_deg": 15
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 84,
+        "throughput_distribution_mbps": {
+          "p50": 70339,
+          "p90": 94879,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-TEST-US-SEA",
+      "name": "Test USA Seattle",
+      "location": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "alt_m": 50
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.5,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.0,
+        "jitter_urad": 1.0,
+        "pointing_loss_db": 1.0
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 95,
+        "horizon_mask_deg": 0
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 50000,
+          "p90": 80000,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-TEST-US-SFO",
+      "name": "Test USA Bay Area",
+      "location": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "alt_m": 30
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.5,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.0,
+        "jitter_urad": 1.0,
+        "pointing_loss_db": 1.0
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 95,
+        "horizon_mask_deg": 0
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 50000,
+          "p90": 80000,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-TEST-US-DEN",
+      "name": "Test USA Denver",
+      "location": {
+        "lat": 39.7392,
+        "lon": -104.9903,
+        "alt_m": 1600
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.5,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.0,
+        "jitter_urad": 1.0,
+        "pointing_loss_db": 1.0
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 95,
+        "horizon_mask_deg": 0
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 50000,
+          "p90": 80000,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-TEST-US-HOU",
+      "name": "Test USA Houston",
+      "location": {
+        "lat": 29.7604,
+        "lon": -95.3698,
+        "alt_m": 15
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.5,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.0,
+        "jitter_urad": 1.0,
+        "pointing_loss_db": 1.0
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 95,
+        "horizon_mask_deg": 0
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 50000,
+          "p90": 80000,
+          "max": 100000
+        }
+      }
+    },
+    {
+      "id": "GS-TEST-US-NYC",
+      "name": "Test USA New York",
+      "location": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "alt_m": 10
+      },
+      "capabilities": {
+        "standards": [
+          "CCSDS-OPTICAL-1.0"
+        ],
+        "wavelength_nm": [
+          1550
+        ],
+        "max_rx_rate_mbps": 100000,
+        "max_tx_rate_mbps": 100000
+      },
+      "rx_params": {
+        "aperture_m": 0.5,
+        "optical_throughput": 0.8,
+        "detector_type": "SNSPD",
+        "detector_efficiency": 0.8,
+        "receiver_sensitivity_dbm": -40
+      },
+      "pointing_params": {
+        "tracking_accuracy_urad": 2.0,
+        "jitter_urad": 1.0,
+        "pointing_loss_db": 1.0
+      },
+      "ops": {
+        "health_state": "OPERATIONAL",
+        "availability_percent": 95,
+        "horizon_mask_deg": 0
+      },
+      "telemetry_history": {
+        "avg_success_rate_percent": 90,
+        "throughput_distribution_mbps": {
+          "p50": 50000,
+          "p90": 80000,
+          "max": 100000
+        }
+      }
+    }
+  ]
+}
